@@ -154,3 +154,7 @@ body {
     text-align: center;
 }
 
+.username {
+    color: white;
+    margin-right: 10px;
+}
