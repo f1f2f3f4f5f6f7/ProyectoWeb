@@ -1,0 +1,168 @@
+header {
+    background-color: rgb(2, 68, 28);
+    padding: 10px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+
+header h1 {
+    color: white;
+    font-size: 36px;
+    margin-right: 10px;
+}
+
+.imagen-portada {
+    width: 150px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.boton {
+    color: white; 
+    background-color: rgb(16, 32, 22); 
+    padding: 10px 20px; 
+    text-decoration: none; 
+    border-radius: 5px; 
+    transition: background-color 0.3s ease; 
+}
+.boton_registro {
+    color: white; 
+    background-color: rgb(16, 32, 22); 
+    padding: 10px 20px; 
+    text-decoration: none; 
+    border-radius: 5px; 
+    transition: background-color 0.3s ease;
+}
+
+.boton:hover {
+    background-color: rgb(2, 68, 28); 
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.video-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.video-fondo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.contenido h2 {
+    font-size: 36px;
+    margin-top: 10px;
+    
+}
+
+.contenido p {
+    font-size: 18px;
+}
+
+.contenido {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+
+.boton-descarga {
+    color: white;
+    background-color: rgb(167, 39, 35);
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    margin-top: 60px;
+}
+
+.contenedor-imagen {
+    position: relative;
+    width: 100px; 
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    
+    align-items: center;
+}   
+
+.boton-lupa{
+
+    width: 25%; 
+    height: auto; 
+    display: block;
+    position: absolute;
+    top: 25px; 
+    left: 1240px; 
+    
+
+}
+
+.boton-oculto {
+    position: absolute;
+    top: 36%;
+    left: 0;
+    width: 20px; 
+    height: 20px;
+    opacity: 0; 
+    cursor: pointer; 
+    left: 1235px;
+    
+}
+
+#mostrar-input {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+
+#campo-texto {
+    position: absolute;
+    top: 50%;
+    left: 1270px;
+    transform: translateY(-50%); 
+    display: none; 
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.box_r {
+    
+    background-color: #9ad473;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.boton-contacto {
+    color: white;
+    background-color: #331258;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    align-items: center;
+    margin-top: 20px; 
+    margin-left: 50px; 
+}
+
