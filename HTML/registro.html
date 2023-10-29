@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="../CSS/index.css" media="screen">
+</head>
+<body>
+    <header>
+        <img src="../MEDIA/imagen_navbar.jpg" class="imagen-portada">
+        <h1><a href="../index.html" class ="boton">Home</a></h1>
+        <h1><a href="noticias.html" class="boton">News</a></h1>
+        <div class="contenedor-imagen">
+            <img src="../MEDIA/lupav2.png" class="boton-lupa"  alt="Mi Imagen">
+            <a href="#" id="mostrar-input" class="boton-oculto" >News</a>
+            <input type="text" id="campo-texto" style="display: none;">
+        </div>
+    </header>
+
+    <div class="video-container">
+        <video autoplay muted loop class="video-fondo">
+            <source src="../MEDIA/video_portada.mp4" type="video/mp4"> 
+        </video>
+        <div class="contenido">
+    <div class="container">
+        <div class="box">
+        <h1>Sign In</h1>
+    <form method="post">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+        <br><br>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br><br>
+        
+        <label for="password">Pansword:</label>
+        <input type="password" id="password" name="password" required>
+        <br><br>
+        
+        <input type="submit" value="Send">
+    </form>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
