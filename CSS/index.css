@@ -83,11 +83,10 @@ nav.bg-propio ul li.registro{
     color: white;
 }
 
-/* styles.css */
 #username-container {
     font-size: 18px;
     font-weight: bold;
-    color: #007bff; /* Puedes cambiar el color según tus preferencias */
+    color: #007bff; 
     text-align: center;
     margin-top: 10px;
 }
