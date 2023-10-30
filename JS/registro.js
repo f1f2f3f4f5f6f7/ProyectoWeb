@@ -1,13 +1,28 @@
-document.getElementById('enviarBtn').addEventListener('click', function(e) {
-    e.preventDefault();
+document.getElementById("enviarBtn").addEventListener("click", function(event) {
+    event.preventDefault();
 
-    const username = document.getElementById('username').value;
-    const password = document.getElementById('password').value;
-    const email = document.getElementById('email').value;
+    var loginExitoso = true;
 
-    
-    localStorage.setItem("username", username);
+    if (loginExitoso) {
+        // Obtiene los valores del formulario
+        var username = document.getElementById("username").value;
+        var email = document.getElementById("email").value;
+        var password = document.getElementById("password").value;
 
-    
-    window.location.href = '../index.html';
+        // Crea un objeto con los datos del formulario
+        var formData = {
+            username: username,
+            email: email,
+            password: password
+        };
+
+        // Guarda el objeto completo en el localStorage
+        localStorage.setItem("formData", JSON.stringify(formData));
+
+        // Redirige al usuario a la página principal
+        window.location.href = '../index.html';
+    } else {
+        // Maneja el caso cuando el inicio de sesión no es exitoso
+        console.log("Inicio de sesión fallido");
+    }
 });

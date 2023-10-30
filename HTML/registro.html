@@ -9,16 +9,27 @@
     
 </head>
 <body>
-    <header>
-        <img src="../MEDIA/imagen_navbar.jpg" class="imagen-portada">
-        <h1><a href="../index.html" class ="boton">Home</a></h1>
-        <h1><a href="noticias.html" class="boton">News</a></h1>
-        <div class="contenedor-imagen">
-            <img src="../MEDIA/lupav2.png" class="boton-lupa"  alt="Mi Imagen">
-            <a href="#" id="mostrar-input" class="boton-oculto" >News</a>
-            <input type="text" id="campo-texto" style="display: none;">
+    <nav class="navbar navbar-expand-lg bg-propio">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html"><img src="../MEDIA/imagen_navbar.jpg" alt="LogoJuego" width="200px" height="60px"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item centro">
+                <a class="nav-link" aria-current="page" href="../index.html">Home</a>
+              </li>
+              <li class="nav-item centro">
+                <a class="nav-link" href="./noticias.html">News</a>
+              </li>
+              <li class="nav-item">
+                  <div class="nav-link" id="username-container"></div>
+              </li>
+            </ul>
+          </div>
         </div>
-    </header>
+          </nav>
 
     <div class="video-container">
         <video autoplay muted loop class="video-fondo">
@@ -28,7 +39,7 @@
     <div class="container">
         <div class="box">
         <h1>Sign In</h1>
-    <form  id = "myform" action="registro_exitoso.html"  method="post">
+    <form  id = "myform" method="post">
         <label for="username">Username:</label>
         <input type="text" id="username" name="username" required>
         <br><br>
@@ -51,3 +62,4 @@
 
 <script src="../JS/registro.js"></script>
 </html>
+
