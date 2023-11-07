@@ -14,7 +14,7 @@
 ## Descripción
 
 Este es un proyecto de pagina web para el videojuego Xenofurius
- sabotage, este es un videojuego en proceso de desarrollo creado por un equipo del semillero de desarrollo de videojuegos uis Digital sprout. El propocito de la pagina es generar una plataforma propia en la cual los interesados en seguir al proyecto puedan saber sobre este, estar al tanto de diferentes noticias sobre su desarrollo y puedan tener un espacio de discucion propio en el cual discutir sobre temas de interes del videojuego.
+ sabotage, un videojuego en proceso de desarrollo creado por un equipo del semillero de desarrollo de videojuegos uis Digital sprout. El propocito de la pagina es generar una plataforma propia en la cual los interesados en seguir al proyecto puedan saber sobre este, estar al tanto de diferentes noticias sobre su desarrollo y puedan tener un espacio de discucion propio en el cual discutir sobre temas de interes del videojuego.
 
  
 ## Funcionalidades
